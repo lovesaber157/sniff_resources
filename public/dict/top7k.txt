@@ -6917,7 +6917,7 @@
 /使用手册.txt
 /说明.htm
 /说明文档.txt
-DataAddress
+/DataAddress
 /db/6k.asp6kbbs
 /link/links%23.asa
 /appoen.asa

@@ -12,10 +12,9 @@ def searchTable(tableName,database):
                 # 使用缓存
                 return -1
             elif choose == 78 or choose == 110:
-                print(1)
                 # 删除已经存在的数据表
                 database.cursor().execute(f'''DROP TABLE "{tableName}"''')
-                database.commit()
+                # database.commit()
                 return 0
             else:
                 print("抱歉，您输入不合法")
@@ -56,12 +55,12 @@ def createTables(url):
 
 def selectSuccessInfo(database,tableName):
     cursor = database.cursor()
-    crawl_data = cursor.execute(f'''select * from "{tableName}" where status_code < 400''').fetchall()
+    crawl_data = cursor.execute(f'''select url, status_code from "{tableName}" where status_code < 400''').fetchall()
     return crawl_data
 
 # 根据字典向数据库内存放数据
 def saveData(url,database,tableName):
     database.cursor().execute(f"INSERT INTO '{tableName}' (url, status_code , reapply) VALUES (?, ?,?)",(url, 0, 0))
-    database.commit()
+    # database.commit()
     return -1
 

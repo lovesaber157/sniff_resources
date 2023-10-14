@@ -64,11 +64,10 @@ if __name__ == "__main__":
         csv_write.writerow(name)
         # 将结果导出为csv文件
         crawl_data = database.selectSuccessInfo(conn,tableName)
-        print(crawl_data)
         number = 0
         for i in crawl_data:
             number = number + 1
-            csv_write.writerow([number,i[1],i[2]])
+            csv_write.writerow([number,i[0],i[1]])
         if csvPath == None:
             print(f"结果存放于当前目录下的{csvName}.csv")
         else:

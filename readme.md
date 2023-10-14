@@ -1,7 +1,9 @@
 ### 敏感资源嗅探脚本
-利用python + sqlit3 所写出的敏感资源嗅探脚本
+利用 python + sqlit3 + httpx 所写出的敏感资源嗅探脚本
+支持中断请求后重新发送请求,支持请求完成将 响应码<400 结果以 时间戳.csv 的文件保存在本地。
 
 #### 运行过程截图展示
+![](https://github.com/lovesaber157/sniff_resources/blob/main/runing.PNG)
 
 1. 运行脚本
    `

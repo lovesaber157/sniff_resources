@@ -6946,7 +6946,7 @@
 /zm_marry.asa
 /blogdata/acblog.asa
 /db/#ewebeditor.asa
-DirFile
+/DirFile
 /Database
 /uploadface
 /Photo

@@ -18,6 +18,6 @@ def getLogo():
             　.  ⊂　　 ノ* ☆
             ☆ * (つ ノ  .☆
             　　 (ノ
-    如果有问题请发送信息到1522412388@qq.com"""
+    """
     print(logo)
     return -1

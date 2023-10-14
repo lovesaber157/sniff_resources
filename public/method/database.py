@@ -1,6 +1,5 @@
 import sqlite3
 import time
-from public.method import showMessage
 
 # 查询表格是否存在判断是否继续进行探测
 def searchTable(tableName,database):
@@ -61,6 +60,6 @@ def selectSuccessInfo(database,tableName):
 # 根据字典向数据库内存放数据
 def saveData(url,database,tableName):
     database.cursor().execute(f"INSERT INTO '{tableName}' (url, status_code , reapply) VALUES (?, ?,?)",(url, 0, 0))
-    # database.commit()
+    database.commit()
     return -1
 

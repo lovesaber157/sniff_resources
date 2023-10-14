@@ -2,7 +2,7 @@
 利用python + sqlit3 所写出的敏感资源嗅探脚本
 
 #### 运行过程截图展示
-
+![](https://github.com/lovesaber157/sniff_resources/blob/main/%E8%BF%90%E8%A1%8C%E8%BF%87%E7%A8%8B%E6%88%AA%E5%9B%BE.PNG)
 
 1. 运行脚本
    `

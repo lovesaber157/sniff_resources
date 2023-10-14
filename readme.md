@@ -4,6 +4,8 @@
 
 #### 运行过程截图展示
 ![](https://github.com/lovesaber157/sniff_resources/blob/main/runing.PNG)
+![](https://github.com/lovesaber157/sniff_resources/blob/main/runing01.PNG)
+![](https://github.com/lovesaber157/sniff_resources/blob/main/runing03.PNG)
 
 1. 运行脚本
    `

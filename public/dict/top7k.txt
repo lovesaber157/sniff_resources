@@ -213,7 +213,7 @@
 /editor/filemanager/browser/default/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=Image&CurrentFolder=/
 /fckeditor/editor/filemanager/connectors/uploadtest.html
 /fckeditor/editor/filemanager/connectors/asp/connector.asp?Command=FileUpload&Type=File&CurrentFolder=%2F
-/fckeditor/editor/filemanager/browser/default/connectors/asp/upload.asp?Type=Media"
+/fckeditor/editor/filemanager/browser/default/connectors/asp/upload.asp?Type=Media
 /fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp?Command=GetFoldersAndFiles&Type=Image&CurrentFolder=/
 /FCKeditor/editor/filemanager/connectors/asp/connector.asp?Command=CreateFolder&Type=Image&CurrentFolder=/shell.asp&NewFolderName=z&uuid=1244789975684
 /FCKeditor/editor/filemanager/browser/default/browser.html?Type=Image&Connector=connectors/jsp/connector

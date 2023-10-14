@@ -2551,7 +2551,7 @@
 /images/13041.swf
 /images/2332.swf
 /images/17149.swf
-images/dropdown.gif
+/images/dropdown.gif
 /admin/z9v8conn.bak
 /manage/z9v8conn.bak
 /ad/conn.bak

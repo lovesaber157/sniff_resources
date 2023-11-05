@@ -42,7 +42,7 @@ if __name__ == "__main__":
     if exist:
         length = 6 * q.qsize()
     else:
-        length = 65 * q.qsize()
+        length = 70 * q.qsize()
     with tqdm(total=length,colour="yellow",position=0) as pbar:
         for i in range(q.qsize()):
             futures.append(pool.submit(sendHttp.sendRequest(q.get(), headers,conn,tableName)))

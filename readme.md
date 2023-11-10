@@ -23,6 +23,7 @@
    ```
 
 #### 文件结构
+```
 sniff_resource
 -| main.py # 入口文件
 ---| public # 共有文件夹
@@ -34,6 +35,7 @@ sniff_resource
 ------| toollinit.py # 脚本初始化加载模块
 ---| dict # 字典文件存放处
 ------| top7K.txt # 常用7K敏感资源字典
+```
 
 #### 等待改进
 1. 等待解决字典加载初期CPU占用率过高问题

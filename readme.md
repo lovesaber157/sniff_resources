@@ -14,12 +14,12 @@
    参数解释 
    ```
    options:
-  -h, --help  show this help message and exit
-  -U U        指定需要探测的网站完整URL，形如https://www.baidu.com
-  -D D        指定需要使用的字典，默认为./public/dict/test.txt
-  -H H        指定headers
-  -T T        开启线程数，默认为10
-  -O O        输出的路径,默认为./
+   -h, --help  show this help message and exit
+   -U U        指定需要探测的网站完整URL，形如https://www.baidu.com
+   -D D        指定需要使用的字典，默认为./public/dict/test.txt
+   -H H        指定headers
+   -T T        开启线程数，默认为10
+   -O O        输出的路径,默认为./
    ```
 
 #### 文件结构

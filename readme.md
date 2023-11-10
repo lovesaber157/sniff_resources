@@ -8,11 +8,11 @@
 ![](https://github.com/lovesaber157/sniff_resources/blob/main/runing03.PNG)
 
 1. 运行脚本
-   `
+   ```python
    python main.py [-h] -U U [-D D] [-H H] [-T T] [-O O]
-   `
+   ```
    参数解释 
-   `
+   ```
    options:
   -h, --help  show this help message and exit
   -U U        指定需要探测的网站完整URL，形如https://www.baidu.com
@@ -20,7 +20,7 @@
   -H H        指定headers
   -T T        开启线程数，默认为10
   -O O        输出的路径,默认为./
-   `
+   ```
 
 #### 文件结构
 sniff_resource

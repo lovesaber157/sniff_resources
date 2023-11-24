@@ -10,6 +10,9 @@
 /.bzr/
 /.git/
 /plus
+/xxl-job-admin
+/xxl-job-admin/login
+/xxl-job-admin/Login
 /新建文本文档.txt
 /0
 /05/

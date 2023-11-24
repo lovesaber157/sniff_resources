@@ -18,6 +18,7 @@ if __name__ == "__main__":
     threadNumber = args.T
     headers = args.H
     csvPath = args.O
+    processNumber = args.P
 
     # 创建数据库
     conn, tableName, exist = database.createTables(url)

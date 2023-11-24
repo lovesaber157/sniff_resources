@@ -8,22 +8,21 @@
 ![](https://github.com/lovesaber157/sniff_resources/blob/main/runing03.PNG)
 
 1. 运行脚本
-   ```python
+   `
    python main.py [-h] -U U [-D D] [-H H] [-T T] [-O O]
-   ```
+   `
    参数解释 
-   ```
+   `
    options:
-   -h, --help  show this help message and exit
-   -U U        指定需要探测的网站完整URL，形如https://www.baidu.com
-   -D D        指定需要使用的字典，默认为./public/dict/test.txt
-   -H H        指定headers
-   -T T        开启线程数，默认为10
-   -O O        输出的路径,默认为./
-   ```
+  -h, --help  show this help message and exit
+  -U U        指定需要探测的网站完整URL，形如https://www.baidu.com
+  -D D        指定需要使用的字典，默认为./public/dict/test.txt
+  -H H        指定headers
+  -T T        开启线程数，默认为10
+  -O O        输出的路径,默认为./
+   `
 
 #### 文件结构
-```
 sniff_resource
 -| main.py # 入口文件
 ---| public # 共有文件夹
@@ -35,7 +34,6 @@ sniff_resource
 ------| toollinit.py # 脚本初始化加载模块
 ---| dict # 字典文件存放处
 ------| top7K.txt # 常用7K敏感资源字典
-```
 
 #### 等待改进
 1. 等待解决字典加载初期CPU占用率过高问题
